@@ -1,12 +1,3 @@
-Currently the main branch does not run properly due to deprecated packages. So I have created a dev branch that starts up successfully but still requires db credentials and some missing data to run the application properly. For now to get started with the application try running it with node version < v18, preferrably v16.
-
-Mentor Connect
-
-An online Mentor Connect website. Built using React JS for the frontend, used Redux for frontend state
-management. Used Express and Node for the backend. REST API for data communication between the client and the
-server, Database used is Mongo DB. Real time chat capabilities with chat notifications with Socket IO, email verification,
-system wide notifications JWT for authentication, posts and comments section, dynamic form generation, etc.
-
 <img src="https://user-images.githubusercontent.com/57834820/173881474-e41d21ce-56b6-473a-bb65-d9556e115765.png" width="100%" height="100%">
 
 <img src="https://user-images.githubusercontent.com/57834820/173881697-5c6406dc-6ba3-4fa1-822c-88d0ff911bab.png" width="100%" height="100%">
