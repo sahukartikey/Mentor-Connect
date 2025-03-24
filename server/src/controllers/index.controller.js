@@ -82,6 +82,7 @@ module.exports = {
                 mentor.isEmailVerified = true;
                 mentor.emailVerifyToken = undefined;
                 await mentor.save();
+                console.log("Rendering email verification success page...");
                 return res.render("emailVerifySuccess");
             }
 

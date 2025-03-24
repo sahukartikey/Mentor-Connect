@@ -26,6 +26,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.set("trust proxy", true);
 app.set("view engine", "hbs");
+app.set("views", path.join(__dirname, "../views"));
+
 /** server HTTP request logging
  * :remote-addr - :remote-user [:date[clf]] ":method :url HTTP/:http-version" :status :res[content-length] ":referrer" ":user-agent"
  * */
