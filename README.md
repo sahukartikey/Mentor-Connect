@@ -9,17 +9,17 @@ Before you begin, ensure you have the following installed:
 - [Git](https://git-scm.com/)
 - A code editor like [VS Code](https://code.visualstudio.com/)
 
----
 
-### 📥 Step 1: Clone the Repository
+
+## 📥 Step 1: Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/mentor-connect.git
 cd mentor-connect
 ```
----
 
-### 🛠️ Step 2: Set Up the Backend
+
+## 🛠️ Step 2: Set Up the Backend
 1. Navigate to the server directory:
 
 ```bash
@@ -47,10 +47,10 @@ npm start
 ```
 - The server will run at http://localhost:5000
 
----
 
 
-### 💻 Step 3: Set Up the Frontend
+
+## 💻 Step 3: Set Up the Frontend
 
 1. Open a new terminal window/tab.
 2. Navigate to the client directory:
@@ -71,8 +71,22 @@ npm start
 ```
 - The frontend will open at http://localhost:3000
 
----
 
-### ✅ Step 4: Access the Application
+
+## ✅ Step 4: Access the Application
 - Frontend: http://localhost:3000
 - Backend APIs (optional to test): http://localhost:5000/api
+
+---
+
+
+## 📁 Google Drive Link
+Click the link below to view:
+
+👉 [Google Drive - Project Docs](https://drive.google.com/drive/folders/1utQSuJSqWjWIbvNvS8nqhrlOZFg0nk5b?usp=sharing)
+
+Contents:
+
+✅ Project Report (PDF)
+
+✅ Project Presentation (PPT)
