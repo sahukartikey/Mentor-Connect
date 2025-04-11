@@ -1,90 +1,78 @@
-🚀 How to Run the Project Locally (Step-by-Step)
-🧰 Prerequisites
+## 🚀 How to Run Mentor Connect Project Locally (Step-by-Step)
+
+### 🧰 Prerequisites
+
 Before you begin, ensure you have the following installed:
 
-Node.js & npm
+- [Node.js & npm](https://nodejs.org/)
+- [MongoDB](https://www.mongodb.com/try/download/community) or MongoDB Atlas (for cloud)
+- [Git](https://git-scm.com/)
+- A code editor like [VS Code](https://code.visualstudio.com/)
 
-MongoDB or MongoDB Atlas (for cloud)
+---
 
-Git
+### 📥 Step 1: Clone the Repository
 
-A code editor like VS Code
-
-📥 Step 1: Clone the Repository
-bash
-Copy
-Edit
+```bash
 git clone https://github.com/your-username/mentor-connect.git
 cd mentor-connect
-📦 Step 2: Set Up the Backend
-Navigate to the server directory:
+```
+---
 
-bash
-Copy
-Edit
+### 🛠️ Step 2: Set Up the Backend
+1. Navigate to the server directory:
+
+```bash
 cd server
-Install backend dependencies:
+```
 
-bash
-Copy
-Edit
+2. Install backend dependencies:
+
+```bash
 npm install
-Create a .env file inside the server folder and add the following:
+```
 
-ini
-Copy
-Edit
+3. Create a .env file inside the server folder and add the following:
+
+```bash
 PORT=5000
 MONGODB_URI=your_mongodb_connection_string
-Replace your_mongodb_connection_string with your local MongoDB URI or Atlas connection string.
+```
+- Replace your_mongodb_connection_string with your local MongoDB URI or Atlas connection string.
+  
+4. Start the backend server:
 
-Start the backend server:
-
-bash
-Copy
-Edit
+```bash
 npm start
-The server will run at http://localhost:5000
+```
+- The server will run at http://localhost:5000
 
-💻 Step 3: Set Up the Frontend
-Open a new terminal window/tab.
+---
 
-Navigate to the client directory:
 
-bash
-Copy
-Edit
+### 💻 Step 3: Set Up the Frontend
+
+1. Open a new terminal window/tab.
+2. Navigate to the client directory:
+
+```bash
 cd client
-Install frontend dependencies:
+```
+3. Install frontend dependencies:
 
-bash
-Copy
-Edit
+```bash
 npm install
-(Optional but Recommended) Add a proxy to client/package.json:
+```
 
-json
-Copy
-Edit
-"proxy": "http://localhost:5000",
-Start the React development server:
+4. Start the React development server:
 
-bash
-Copy
-Edit
+```bash
 npm start
-The frontend will open at http://localhost:3000
+```
+- The frontend will open at http://localhost:3000
 
-✅ Step 4: Access the Application
-Frontend: http://localhost:3000
+---
 
-Backend APIs (optional to test): http://localhost:5000/api
-
-🧪 Step 5: Testing Features
-Now that everything is up and running, you can:
-
-Register/login as Admin or Mentee/Mentor
-
-Try sending messages and schedule meetings
-
-Test session handling, validations, and API functionality
+### ✅ Step 4: Access the Application
+- Frontend: http://localhost:3000
+- Backend APIs (optional to test): http://localhost:5000/api
